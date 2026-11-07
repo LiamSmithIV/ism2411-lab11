@@ -2,6 +2,17 @@
 # Author: Liam Smith 
 # Module 11 Lab: Customer Dictionary & Lookup 
 
+# Reflection 1:
+# I would use .get() when a missing key is expected and normal, like an optional field such as a customer phone number.
+# This would be because it returns a safe default value instead of crashing. 
+# I would use bracket notation when the key must exist, like a customer's name. 
+# My rule of thumb would be: use .get() for optional fields and bracket notation for required fields.
+
+# Reflection 2: 
+# Building a summary directionary by region is similar to using SUMIF or PivotTable in Excel.
+# The python version is more useful for large data sets because it can handle millions of rows which would otherwise crash excel. 
+
+
 print("--- Exercise 1 ---")
 customer = {
     "name": "Alice",
